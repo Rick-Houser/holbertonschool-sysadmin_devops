@@ -1,3 +1,3 @@
 #!/bin/bash
 variable=\"\(Ôo\)\'
-echo -e $variable
+echo $variable
