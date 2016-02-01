@@ -1,0 +1,2 @@
+#!/bin/bash
+code=5#$(echo $WATER | tr water 01234);me=5#$(echo $STIR | tr stir. 01234);love=$( printf "%o\n" $(($code+$me)) | tr 01234567 behlnort);echo $love
