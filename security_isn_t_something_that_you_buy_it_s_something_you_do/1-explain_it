@@ -1,0 +1,23 @@
+1. What should you create? Using what?
+===================================
+Create an ssh key using the terminal application. You can create an ssh key by following these steps:
+1st, type "ssh-keygen -t rsa -b 4096 -C"
+     This will generate an ssh key pair.(private and public key pair)
+     
+2nd, you will be prompted to choose a file to save the ssh key.
+     Press enter for default location.
+
+3rd, you will be prompted twice to set a password for your ssh key(optional).
+     Press enter if you do not wish to have a password set for your ssh key use.
+
+Finally, you can use the "pbcopy < ~/.ssh/id_rsa.pub" command to copy your public ssh key to paste where instructed.
+
+2. What should you do with the public key? How will it be used? What will it do?
+================================================================================
+Using the public key you copied with the last mentioned command, you will paste this when prompted when trying to log into your sandbox servers. SSH key pairs provide a secure way for users to remotely log into remote machines and execute commands. Your public key is shareable. By entering your ssh key, you will gain access to the company's sandbox servers. 
+
+3. What should you do with the private key? How will it be used? What will it do?
+=================================================================================
+Unlike the public ssh key, the private key will remain on your system and should never be shared. The private key is how you are authenticated and if someone were to gain access to this private key, that user could gain full access to your account.
+
+
