@@ -39,4 +39,4 @@ scp -q $FILE.m4a admin@$3:/usr/share/nginx/html
 
 # Direct user to where audio file can be heard
 echo "$FILE.m4a"
-echo "Listen to the message on http://"$3/$FILE".m4a"
+echo "Listen to the message on http://$3/$FILE.m4a"
