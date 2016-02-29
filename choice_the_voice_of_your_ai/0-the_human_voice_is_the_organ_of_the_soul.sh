@@ -14,21 +14,20 @@
 # <scriptname> "My text string here" f <IP_ADDRESS> #        
 #####################################################
 
-
 # Takes first word from first parameter and save to FILE
 FILE=$(echo $1 | awk '{ print $1 }')
 
 # Sets voice according to users input
 case $2 in 
 f)
-	VOICE="Karen"
-	;;
+  VOICE="Karen"
+  ;;
 m)
-	VOICE="Alex"
-	;;
+  VOICE="Alex"
+  ;;
 x)
-	VOICE="Bad"
-	;;
+  VOICE="Bad"
+  ;;
 esac
 
 # Saves message($1) with voice type($2) into FILE.mp4
@@ -36,8 +35,7 @@ esac
 say $1 -v $VOICE -o $FILE.m4a
 
 # Transfer file to server
-IP=$3
-scp -q $FILE.m4a admin@$IP:/usr/share/nginx/html
+scp -q $FILE.m4a admin@$3:/usr/share/nginx/html
 
 # Direct user to where audio file can be heard
 echo "$FILE.m4a"
