@@ -4,14 +4,14 @@
 # Author: Rick Houser                               #
 # Script: Text2Audio                                #
 #                                                   #
-#	What it does: Shell script takes 3 parameters.    #
-#	First parameter is your text string.              #
-#	Second parameter is your choice of voice:         #
-#		f(female), m(male), x(robot)                    #
-#	Third parameter is the destination IP address.    #
-#	                                                  #
-#	Example:                                          # 
-#	<scriptname> "My text string here" f <IP_ADDRESS> #        
+# What it does: Shell script takes 3 parameters.    #
+# First parameter is your text string.              #
+# Second parameter is your choice of voice:         #
+#   f(female), m(male), x(robot)                    #
+# Third parameter is the destination IP address.    #
+#                                                   #
+# Example:                                          # 
+# <scriptname> "My text string here" f <IP_ADDRESS> #        
 #####################################################
 
 
