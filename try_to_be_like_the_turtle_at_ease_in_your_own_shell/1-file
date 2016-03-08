@@ -1,0 +1,3 @@
+#!/bin/bash
+# "fun" experiment in creating files full of special characters
+echo "Holberton School"> "\*\\\'"'"Holberton School"'"\'\\\*$\?\*\*\*\*\*:)"
