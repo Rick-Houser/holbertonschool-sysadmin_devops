@@ -1,0 +1,3 @@
+#!/bin/bash
+# decodes base64 encrypted text
+base64 --decode
