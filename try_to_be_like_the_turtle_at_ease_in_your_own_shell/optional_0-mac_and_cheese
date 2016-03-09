@@ -1,0 +1,5 @@
+#!/bin/bash                                                                                          
+ifconfig -a | grep -E -o '[[:xdigit:]]{2}(:[[:xdigit:]]{2}){5}'
+# searches for MAC by repeating hex patterns.                                                        
+# optional second way. searches by repeating pattern where .. can be anything                        
+# ifconfig -a | grep -o "..:..:..:..:..:.."   

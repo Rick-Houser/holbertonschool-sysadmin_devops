@@ -1,3 +1,2 @@
 #!/bin/bash
-# script to do basic addition in base 8
 echo "obase=8; ibase=8; $NUM1 + $NUM2" | bc
