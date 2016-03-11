@@ -1,2 +1,2 @@
 #!/usr/bin/ruby
-puts ARGV.join.length
+p ARGV.join.length
