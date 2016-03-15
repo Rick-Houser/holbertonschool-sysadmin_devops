@@ -1,5 +1,3 @@
 #!/bin/bash
-t=tput;h(){$t setb $1 printf "%$((`$t cols`/3))s"}
-for i in $(seq 2 `$t lines`);do
-  h 2;h 7;h 4;$t sgr0;echo
-done
+t=tput;h(){ $t setab $1;printf "%$((`$t cols`/3))s";}
+for i in $(seq `$t lines`);do h 2;h 7;h 1;$t sgr0;echo;done
