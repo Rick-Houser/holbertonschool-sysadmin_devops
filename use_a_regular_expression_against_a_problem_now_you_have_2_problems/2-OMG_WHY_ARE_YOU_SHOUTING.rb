@@ -1,2 +1,2 @@
 #!/usr/bin/ruby
-print ARGV.to_s.scan(/[[A-Z]!]/).join + "\n"
+print ARGV[0].scan(/[[A-Z]!]/).join
