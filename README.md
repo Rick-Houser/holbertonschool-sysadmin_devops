@@ -24,7 +24,7 @@ Funny name but very fun project. The script parses the CLI. Given a string, a vo
 
 ## **_Usage_**
 
-* Create empty **List**
+* Run the script from the CLI
 
   ```bash
   ./script_name 'my string' f IP_ADDRESS
