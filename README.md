@@ -15,12 +15,12 @@ Not only did we learn to do some really cool stuff with scripts, but by being on
 1. Jira
 1. JAMF
 1. Chef
-1. Convert from one base10 to base16
+1. Convert from base10 to base16
 1. Various Algorithms using scripts
 
 ## Choice the Voice of your Ai
 
-Funny name but very fun project. The script parses the CLI. Given a string and an IP address, the script takes the string and uploads a spoken version of the string in a voice of your choice. Current voice options are male(m), female(f) and robot(r).
+Funny name but very fun project. The script parses the CLI. Given a string, a voice option, and an IP address, the script takes the string and uploads a spoken version of the string in a voice of your choice. Current voice options are male(m), female(f) and robot(r).
 
 ## **_Usage_**
 
