@@ -1,5 +1,0 @@
-# Exclude all YAML files
-*.yaml
-
-# Exclude all .txt files
-*.txt
