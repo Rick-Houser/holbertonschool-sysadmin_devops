@@ -1,4 +1,10 @@
 #!/usr/bin/env ruby
+
+=begin
+Ruby script that manages Amazon EC2 instances.
+With this script one can launch(create), start, stop and terminate EC2 instances.
+=end
+
 require 'bundler/setup'
 require 'optparse'
 Bundler.require
