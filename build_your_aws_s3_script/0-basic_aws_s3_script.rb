@@ -1,5 +1,10 @@
 #!/usr/bin/ruby
 
+=begin
+This ruby script is used to manage Amazon S3 buckets.
+S3 is a type of remote storage system. 
+=end
+
 require 'optparse'
 require 'yaml'
 require 'aws-sdk'
