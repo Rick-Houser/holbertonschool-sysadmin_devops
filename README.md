@@ -9,14 +9,14 @@ Not only did we learn to do some really cool stuff with scripts, but by being on
 1. Parsing files and folders
 1. Managing AWS S3 buckets
 1. Managing EC2 instances
-1. Configure Master Slave relationships
+1. Configure master/slave relationships
 1. SSH
 1. RegEx
 1. Jira
 1. JAMF
 1. Chef
 1. Convert from base10 to base16
-1. Various Algorithms using scripts
+1. Various algorithms using scripts
 
 ## Choice the Voice of your Ai
 
