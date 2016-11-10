@@ -1,8 +1,8 @@
 # Dev-Ops track at Holberton School.
 
-This repo contains code from our Dev-Ops programming track at Holberton School. In this track we learn many topics. Here you'll find all sorts of Ruby and Shell scripts here. My favorite project would have to be "choice_the_voice_of_your_ai" (described below).
+This repo contains code from our Dev-Ops programming track at Holberton School. In this track we learn many topics. Here you'll find all sorts of Ruby and Shell scripts. My favorite project would have to be "choice_the_voice_of_your_ai" (described below).
 
-Not only did we learn to do some really cool stuff with scripts, but by being on the School's internal DevOps team, we got to provision computers and use industry tech like Jira and JAMF.
+By being part of Holberton's internal DevOps team, I had the opportunity to put my scripting skills to work. On this team we use industry software like JAMF's Casper Suite for configuration and management. To track our teams work, we use JIRA.
 
 ## DevOps Tasks and Tech:
 
